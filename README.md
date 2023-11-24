@@ -1,5 +1,3 @@
-![image](https://github.com/jonasdev55/Peggy-The-Game/assets/71385738/542129e5-c040-489b-9b26-1cba175b2f09)
-
 [Download Game Here](https://mediaville.itch.io/peggy-the-game)
 
 # Version 1.0 (Released)
