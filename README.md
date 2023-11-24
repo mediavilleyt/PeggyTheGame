@@ -21,7 +21,3 @@
 MediaVille (Jonas Devadder) [YouTube ->](https://www.youtube.com/channel/UC9GICDhmQQkuqweIyhcLXfg)
 
 Cedvinvu (Cedric Van Uytsel) [Github ->](https://github.com/Cedvinvu)
-
-Jarnostuff (Jarno Hennes)
-
-KeanutLS (Keanu Van Acker) [YouTube ->](https://www.youtube.com/@KeanutLS)
