@@ -1,0 +1,63 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUI/GameUI.uss?fileID=7433441132597879392&amp;guid=5153ad53ca6bec04c8360d02260eddcc&amp;type=3#GameUI" />
+    <ui:GroupBox name="PausePannel" style="flex-direction: row; flex-grow: 1; background-color: rgba(0, 0, 0, 0.39); display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:GroupBox style="flex-grow: 1; align-items: center; justify-content: space-around; width: 50%;">
+            <ui:Button text="Resume" display-tooltip-when-elided="true" name="ResumeButton" class="Buttons" />
+        </ui:GroupBox>
+        <ui:GroupBox style="flex-grow: 1; align-items: center; justify-content: center; width: 50%;">
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" class="Buttons" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+    <ui:GroupBox name="QuitPannel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.39); flex-direction: row; display: none;">
+        <ui:GroupBox style="flex-grow: 1;" />
+        <ui:GroupBox style="flex-grow: 1; width: 35%;">
+            <ui:GroupBox style="flex-grow: 1;" />
+            <ui:GroupBox style="height: 40%; background-color: rgb(0, 0, 0);">
+                <ui:GroupBox style="flex-grow: 1; border-left-width: 10px; border-right-width: 10px; border-top-width: 10px; border-bottom-width: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgb(123, 123, 123);">
+                    <ui:Label text="Are u Sure u want &#10;to quit?" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; font-size: 71px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+                </ui:GroupBox>
+                <ui:GroupBox style="height: 30%; background-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); flex-direction: row;">
+                    <ui:Button text="To Main Menu" display-tooltip-when-elided="true" name="QuitToMenu" class="QuitButtons" style="border-left-width: 0; border-right-width: 2px; border-top-width: 0; border-bottom-width: 0; border-right-color: rgb(255, 255, 255);" />
+                    <ui:Button text="To Desktop" display-tooltip-when-elided="true" name="QuitToDesktop" class="QuitButtons" />
+                    <ui:Button text="stay" display-tooltip-when-elided="true" name="Cancel" class="QuitButtons" style="border-left-width: 2px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:GroupBox style="flex-grow: 1;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="flex-grow: 1;" />
+    </ui:GroupBox>
+    <ui:Label display-tooltip-when-elided="true" name="Subs" style="position: absolute; height: 163px; width: 1407px; top: 836px; left: 15%; -unity-text-align: middle-center; font-size: 60px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); -unity-font-style: italic; color: rgb(255, 255, 255); white-space: normal; text-shadow: 5px 5px 0 rgb(0, 0, 0); -unity-text-outline-color: rgb(0, 0, 0);" />
+    <ui:GroupBox name="DeathPannel" style="flex-direction: row; flex-grow: 1; background-color: rgb(0, 0, 0); display: none; width: auto; height: auto; align-items: center; opacity: 1; overflow: visible; -unity-background-scale-mode: stretch-to-fill; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:GroupBox style="flex-grow: 0; width: 10%;" />
+        <ui:GroupBox style="flex-grow: 1; align-items: center; justify-content: space-around; height: auto;">
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="RestartButton" class="Buttons" style="width: 449px;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="DeathQuitButton" class="Buttons" />
+        </ui:GroupBox>
+        <ui:GroupBox style="width: 10%;" />
+        <ui:Label text="You Died" display-tooltip-when-elided="true" enable-rich-text="false" style="position: absolute; height: 243px; width: 1067px; top: 156px; left: 396px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); font-size: 137px; -unity-text-align: middle-center; color: rgb(140, 0, 0);" />
+    </ui:GroupBox>
+    <ui:GroupBox name="DeathQuitPannel" style="flex-grow: 1; background-color: rgb(0, 0, 0); flex-direction: row; display: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:GroupBox style="flex-grow: 1;" />
+        <ui:GroupBox style="flex-grow: 1; width: 35%;">
+            <ui:GroupBox style="flex-grow: 1;" />
+            <ui:GroupBox style="height: 40%; background-color: rgb(0, 0, 0);">
+                <ui:GroupBox style="flex-grow: 1; border-left-width: 10px; border-right-width: 10px; border-top-width: 10px; border-bottom-width: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgb(123, 123, 123);">
+                    <ui:Label text="Are u Sure u want &#10;to quit?" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; font-size: 71px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+                </ui:GroupBox>
+                <ui:GroupBox style="height: 30%; background-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); flex-direction: row;">
+                    <ui:Button text="To Main Menu" display-tooltip-when-elided="true" name="DeathQuitToMenu" class="QuitButtons" style="border-left-width: 0; border-right-width: 2px; border-top-width: 0; border-bottom-width: 0; border-right-color: rgb(255, 255, 255);" />
+                    <ui:Button text="To Desktop" display-tooltip-when-elided="true" name="DeathQuitToDesktop" class="QuitButtons" />
+                    <ui:Button text="stay" display-tooltip-when-elided="true" name="DeathCancel" class="QuitButtons" style="border-left-width: 2px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:GroupBox style="flex-grow: 1;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="flex-grow: 1;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="LoadUI" style="flex-grow: 1; display: none; background-color: rgb(0, 0, 0); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:VisualElement name="LoadImage" style="flex-grow: 1;" />
+        <ui:Label text="Loading 100%" display-tooltip-when-elided="true" name="LoadPercentage" style="position: absolute; height: 99px; width: 335px; top: 928px; left: 1516px; font-size: 82px; -unity-text-align: middle-right; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+    </ui:GroupBox>
+</ui:UXML>

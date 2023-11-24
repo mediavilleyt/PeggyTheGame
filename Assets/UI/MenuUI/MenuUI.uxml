@@ -1,0 +1,106 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuUI/MainMenu.uss?fileID=7433441132597879392&amp;guid=b5135f9129c87c74aac8a3d3a77952f4&amp;type=3#MainMenu" />
+    <ui:GroupBox name="MenuUI" style="flex-grow: 1; flex-direction: row; background-color: rgba(0, 0, 0, 0); opacity: 1; display: flex; visibility: visible;">
+        <ui:GroupBox style="flex-grow: 1; opacity: 1; min-width: 47%;">
+            <ui:GroupBox style="flex-grow: 1;" />
+            <ui:GroupBox style="height: 60%;">
+                <ui:Button text="New Game" display-tooltip-when-elided="true" name="NewGameButton" class="MenuButtons" />
+                <ui:Button text="Continue" display-tooltip-when-elided="true" name="ContinueButton" class="MenuButtons" style="display: none;" />
+                <ui:Button text="Scene Select" display-tooltip-when-elided="true" name="SelectButton" class="MenuButtons" style="display: none;" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" class="MenuButtons" />
+                <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" enable-rich-text="true" class="MenuButtons" />
+            </ui:GroupBox>
+            <ui:GroupBox style="flex-grow: 1;" />
+        </ui:GroupBox>
+        <ui:GroupBox style="width: 70%;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="SelectUI" style="flex-grow: 1; display: none; background-image: url(&apos;project://database/Assets/Levels/MainMenu/1-1.png?fileID=21300000&amp;guid=3998a725463e8c74091003e0fc0b83b5&amp;type=3#1-1&apos;); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:VisualElement name="IMG" style="flex-grow: 1; background-image: none; display: flex; border-left-width: 62px; border-right-width: 62px; border-top-width: 62px; border-bottom-width: 62px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="SelectBackButton" class="MenuButtons" style="position: absolute; height: 120px; width: 421px; top: 87%; left: 0;" />
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="SelectPlayButton" class="MenuButtons" style="position: absolute; height: 120px; width: 421px; top: 87%; left: 76%;" />
+            <ui:Label text="Level 1" display-tooltip-when-elided="true" name="LevelName" class="SelectText" style="position: absolute; height: 95px; width: 943px; top: 28px; left: 488px; -unity-text-align: middle-center;" />
+            <ui:Button text="&lt;" display-tooltip-when-elided="true" name="SelectLeftButton" class="MenuButtons" style="position: absolute; height: 120px; width: 421px; top: 45%; left: -5%;" />
+            <ui:Button text="&gt;" display-tooltip-when-elided="true" name="SelectRightButton" enable-rich-text="true" class="MenuButtons" style="position: absolute; height: 120px; width: 421px; top: 45%; left: 80%;" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+    <ui:GroupBox name="SettingsUI" style="flex-grow: 1; display: none; opacity: 0;">
+        <ui:GroupBox style="flex-grow: 1;">
+            <ui:GroupBox name="Video" style="flex-grow: 1; flex-direction: row;">
+                <ui:GroupBox name="VideoSettings" style="flex-grow: 1; flex-direction: row;">
+                    <ui:GroupBox name="Labels" style="flex-grow: 1; width: 40%;">
+                        <ui:Label text="Resolution" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); font-size: 50px; color: rgb(255, 255, 255);" />
+                        <ui:Label text="Vsync" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; font-size: 50px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+                        <ui:Label text="Quality" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); font-size: 50px; color: rgb(255, 255, 255);" />
+                        <ui:Label text="Fullscreen" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; font-size: 50px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+                        <ui:Label text="Max FPS" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; font-size: 50px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+                    </ui:GroupBox>
+                    <ui:GroupBox name="LeftArrows" style="flex-grow: 1;">
+                        <ui:Button text="&lt;" display-tooltip-when-elided="true" name="ResolutionLeft" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&lt;" display-tooltip-when-elided="true" name="VsyncLeft" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&lt;" display-tooltip-when-elided="true" name="QualityLeft" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&lt;" display-tooltip-when-elided="true" name="FullscreenModeLeft" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&lt;" display-tooltip-when-elided="true" name="TargetFramerateLeft" class="SettingsArrows" style="flex-grow: 1;" />
+                    </ui:GroupBox>
+                    <ui:GroupBox name="Settings" style="flex-grow: 1; width: 40%;">
+                        <ui:GroupBox style="flex-grow: 1;">
+                            <ui:Label text="240P" display-tooltip-when-elided="true" name="ResolutionText" class="SettingsLabel" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                        </ui:GroupBox>
+                        <ui:GroupBox style="flex-grow: 1;">
+                            <ui:Label text="ON" display-tooltip-when-elided="true" name="VsyncText" class="SettingsLabel" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                        </ui:GroupBox>
+                        <ui:GroupBox style="flex-grow: 1;">
+                            <ui:Label text="Ultra" display-tooltip-when-elided="true" name="QualityText" class="SettingsLabel" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                        </ui:GroupBox>
+                        <ui:GroupBox style="flex-grow: 1;">
+                            <ui:Label text="Fullscreen" display-tooltip-when-elided="true" name="FullscreenText" class="SettingsLabel" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                        </ui:GroupBox>
+                        <ui:GroupBox style="flex-grow: 1;">
+                            <ui:Label text="60 FPS" display-tooltip-when-elided="true" name="TargetFramerateText" class="SettingsLabel" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                        </ui:GroupBox>
+                    </ui:GroupBox>
+                    <ui:GroupBox name="RightArrows" style="flex-grow: 1;">
+                        <ui:Button text="&gt;" display-tooltip-when-elided="true" name="ResolutionRight" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&gt;" display-tooltip-when-elided="true" name="VsyncRight" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&gt;" display-tooltip-when-elided="true" name="QualityRight" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&gt;" display-tooltip-when-elided="true" name="FullscreenModeRight" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&gt;" display-tooltip-when-elided="true" name="TargetFramerateRight" class="SettingsArrows" style="flex-grow: 1;" />
+                    </ui:GroupBox>
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:GroupBox name="Audio" style="flex-grow: 1; height: auto; flex-direction: row; align-items: center;">
+                <ui:GroupBox name="AudioSettings" style="flex-grow: 1; flex-direction: row; width: 1303px;">
+                    <ui:GroupBox name="Labels" style="flex-grow: 1; width: 40%;">
+                        <ui:Label text="Music Volume" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; font-size: 50px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+                        <ui:Label text="Effects Volume" display-tooltip-when-elided="true" style="flex-grow: 1; -unity-text-align: middle-center; font-size: 50px; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+                    </ui:GroupBox>
+                    <ui:GroupBox name="LeftArrows" style="flex-grow: 1;">
+                        <ui:Button text="&lt;" display-tooltip-when-elided="true" name="MusicLeft" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&lt;" display-tooltip-when-elided="true" name="EffectsLeft" class="SettingsArrows" style="flex-grow: 1;" />
+                    </ui:GroupBox>
+                    <ui:GroupBox name="Settings" style="flex-grow: 1; width: 40%;">
+                        <ui:GroupBox style="flex-grow: 1;">
+                            <ui:Label text="100" display-tooltip-when-elided="true" name="MusicText" class="SettingsLabel" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                        </ui:GroupBox>
+                        <ui:GroupBox style="flex-grow: 1;">
+                            <ui:Label text="100" display-tooltip-when-elided="true" name="EffectsText" class="SettingsLabel" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                        </ui:GroupBox>
+                    </ui:GroupBox>
+                    <ui:GroupBox name="RightArrows" style="flex-grow: 1;">
+                        <ui:Button text="&gt;" display-tooltip-when-elided="true" name="MusicRight" class="SettingsArrows" style="flex-grow: 1;" />
+                        <ui:Button text="&gt;" display-tooltip-when-elided="true" name="EffectsRight" class="SettingsArrows" style="flex-grow: 1;" />
+                    </ui:GroupBox>
+                </ui:GroupBox>
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 10%; flex-direction: row;">
+            <ui:GroupBox style="width: 15%;">
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="SettingsArrows" style="flex-grow: 1;" />
+            </ui:GroupBox>
+            <ui:GroupBox style="flex-grow: 1;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+    <ui:GroupBox name="LoadUI" style="flex-grow: 1; display: none; background-color: rgb(0, 0, 0); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:VisualElement name="LoadImage" style="flex-grow: 1;" />
+        <ui:Label text="Loading 100%" display-tooltip-when-elided="true" name="LoadPercentage" style="position: absolute; height: 99px; width: 335px; top: 928px; left: 1516px; font-size: 82px; -unity-text-align: middle-right; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+    </ui:GroupBox>
+</ui:UXML>

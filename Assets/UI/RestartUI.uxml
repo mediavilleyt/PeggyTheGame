@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Levels/LV1/GameUI/GameUI.uss?fileID=7433441132597879392&amp;guid=5153ad53ca6bec04c8360d02260eddcc&amp;type=3#GameUI" />
+    <ui:GroupBox name="LoadUI" style="flex-grow: 1; display: flex; background-color: rgb(0, 0, 0); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:VisualElement name="LoadImage" style="flex-grow: 1;" />
+        <ui:Label text="Loading 100%" display-tooltip-when-elided="true" name="LoadPercentage" style="position: absolute; height: 99px; width: 335px; top: 928px; left: 1516px; font-size: 82px; -unity-text-align: middle-right; -unity-font-definition: url(&apos;project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&amp;guid=195ef4afaacc52c47ad431d790e4c8fc&amp;type=2#SuperComic-qZg62 SDF 1&apos;); color: rgb(255, 255, 255);" />
+    </ui:GroupBox>
+</ui:UXML>

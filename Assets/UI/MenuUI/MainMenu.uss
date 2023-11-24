@@ -1,0 +1,68 @@
+.MenuButtons {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 67px;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    -unity-font: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62.ttf?fileID=12800000&guid=ea449f89e6989924c8c8dc3aa2323c38&type=3#SuperComic-qZg62');
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.1s;
+}
+
+.MenuButtons:hover {
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 97px;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    -unity-font: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62.ttf?fileID=12800000&guid=ea449f89e6989924c8c8dc3aa2323c38&type=3#SuperComic-qZg62');
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-text-outline-width: 0;
+    text-shadow: 10px 10px 0 rgb(0, 0, 0);
+    transition-duration: 0.1s;
+}
+
+.SettingsArrows {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.SettingsArrows:hover {
+    color: rgb(111, 111, 111);
+    font-size: 60px;
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+}
+
+.SettingsLabel {
+    -unity-text-align: upper-center;
+    justify-content: center;
+    align-items: stretch;
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+    font-size: 50px;
+    color: rgb(255, 246, 122);
+}
+
+.SelectText {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 67px;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    -unity-font: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62.ttf?fileID=12800000&guid=ea449f89e6989924c8c8dc3aa2323c38&type=3#SuperComic-qZg62');
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

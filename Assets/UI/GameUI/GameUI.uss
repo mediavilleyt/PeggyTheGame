@@ -1,0 +1,34 @@
+.Buttons {
+    width: auto;
+    height: auto;
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
+}
+
+.Buttons:hover {
+    font-size: 130px;
+    transition-duration: 0.1s;
+}
+
+.QuitButtons {
+    flex-grow: 1;
+    -unity-font-definition: url('project://database/Assets/Levels/MainMenu/SuperComic-qZg62%20SDF%201.asset?fileID=11400000&guid=195ef4afaacc52c47ad431d790e4c8fc&type=2#SuperComic-qZg62 SDF 1');
+    font-size: 37px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(202, 0, 0);
+}
+
+.QuitButtons:hover {
+    color: rgb(204, 204, 204);
+}
